@@ -65,7 +65,7 @@ if (isset($_SESSION['success']) && isset($_SESSION['msg'])) {
                <div class="container">
                     <div class="row">
                          <div class="col-12">
-                              <a href="#" class=""><span class="mr-2  icon-envelope-open-o"></span> <span class="d-none d-md-inline-block">info@yourdomain.com</span></a>
+                              <a href="#" class=""><span class="mr-2  icon-envelope-open-o"></span> <span class="d-none d-md-inline-block">info@swiftexpress247.com</span></a>
                               <span class="mx-md-2 d-inline-block"></span>
                               <a href="#" class=""><span class="mr-2  icon-phone"></span> <span class="d-none d-md-inline-block">+44 7831 005306</span></a>
 
@@ -272,3 +272,10 @@ if (isset($_SESSION['success']) && isset($_SESSION['msg'])) {
           <?php
           include 'footer.php';
           ?>
+
+          <!-- credentials -->
+
+          <!-- email account
+
+          username: info@swiftexpress247.com
+          passord: Gz#)4a#^,3UZ -->
