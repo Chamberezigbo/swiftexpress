@@ -75,9 +75,7 @@
 
                               <div class="float-right">
 
-                                   <a href="#" class=""><span class="mr-2  icon-twitter"></span> <span class="d-none d-md-inline-block">Twitter</span></a>
-                                   <span class="mx-md-2 d-inline-block"></span>
-                                   <a href="#" class=""><span class="mr-2  icon-facebook"></span> <span class="d-none d-md-inline-block">Facebook</span></a>
+                                   <a href="#" class="" id="google_translate_element"></a>
 
                               </div>
 
@@ -105,7 +103,6 @@
 
                                    <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                                         <li><a href="index.php" class="nav-link">Home</a></li>
-                                        <li class="nav-link" id="google_translate_element"></li>
                                    </ul>
                               </nav>
 

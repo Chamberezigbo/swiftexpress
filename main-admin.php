@@ -2,7 +2,7 @@
 
 if (isset($_POST['RegisterPro'])) {
      $pass = $_POST['pass'];
-     if ($pass == 'Perficient24Seven') {
+     if ($pass == '$wiftexpress-@dmin') {
           # code...
           session_start();
           $_SESSION['auth'] = true;

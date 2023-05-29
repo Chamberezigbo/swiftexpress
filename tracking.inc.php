@@ -1,4 +1,3 @@
-<!-- this file handles the ID -->
 <?php
 session_start();
 if (isset($_POST['track'])) {
@@ -45,12 +44,12 @@ if (isset($_POST['track'])) {
                $_SESSION['currentLocation'] = $row['current_location'];
 
                header("Location:tracking.php");
+               exit();
           } else {
                $_SESSION['success'] = false;
                $_SESSION['msg'] = "Tracking ID Not Found";
                header("Location:index.php");
+               exit();
           }
      }
 }
-// ! looking at handleing database request //
-// finch up and the tracking 

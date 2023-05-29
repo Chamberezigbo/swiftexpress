@@ -37,6 +37,7 @@ if (isset($_SESSION['success']) && isset($_SESSION['msg'])) {
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/style.css">
+     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </head>
 
@@ -72,9 +73,7 @@ if (isset($_SESSION['success']) && isset($_SESSION['msg'])) {
 
                               <div class="float-right">
 
-                                   <a href="#" class=""><span class="mr-2  icon-twitter"></span> <span class="d-none d-md-inline-block">Twitter</span></a>
-                                   <span class="mx-md-2 d-inline-block"></span>
-                                   <a href="#" class=""><span class="mr-2  icon-facebook"></span> <span class="d-none d-md-inline-block">Facebook</span></a>
+                                   <a href="#" class="" id="google_translate_element"></a>
 
                               </div>
 
@@ -105,14 +104,10 @@ if (isset($_SESSION['success']) && isset($_SESSION['msg'])) {
                                         <li><a href="#services-section" class="nav-link">Services</a></li>
 
 
-                                        <li class="has-children">
+                                        <li class="">
                                              <a href="#about-section" class="nav-link">About Us</a>
                                         </li>
 
-                                        <li><a href="#why-us-section" class="nav-link">Why Us</a></li>
-
-                                        <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
-                                        <li class="nav-link" id="google_translate_element"></li>
                                    </ul>
                               </nav>
 
@@ -244,29 +239,27 @@ if (isset($_SESSION['success']) && isset($_SESSION['msg'])) {
                <div class="container">
                     <div class="row d-flex no-gutters align-items-stretch">
 
-                         <div class="col-12 col-lg-6 block__73422 order-lg-2" style="background-image: url('images/cargo_sea_small.jpg');" data-aos="fade-left" data-aos-delay="">
+                         <div class="col-12 col-lg-6 block__73422 order-lg-2" style="background-image: url('images/cargo_sea_small.jpg');">
                          </div>
 
-
-
-                         <div class="col-lg-5 mr-auto p-lg-5 mt-4 mt-lg-0 order-lg-1" data-aos="fade-right" data-aos-delay="">
+                         <div class="col-lg-5 mr-auto p-lg-5 mt-4 mt-lg-0 order-lg-1">
                               <h2 class="mb-4 text-black">Why Us</h2>
                               <h4 class="text-primary">We work quickly and efficiently!</h4>
-                              <p>When it comes to logistics, we stand out from the competition. Here's why you should choose swift express for all your transportation and delivery needs:</p>
+                              <p>When it comes to logistics, we stand out from the competition. Here's why you should choose Swift Express for all your transportation and delivery needs:</p>
 
                               <ul class="ul-check primary list-unstyled mt-5">
                                    <li>Cargo express</li>
                                    <li>Secure Services</li>
-                                   <li>Secure Warehouseing</li>
+                                   <li>Secure Warehousing</li>
                                    <li>Cost savings</li>
                                    <li>Proven by great companies</li>
                               </ul>
-
                          </div>
 
                     </div>
                </div>
           </div>
+
 
           <!-- id="why-us-section" -->
 
