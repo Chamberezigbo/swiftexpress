@@ -105,6 +105,7 @@
 
                                    <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                                         <li><a href="index.php" class="nav-link">Home</a></li>
+                                        <li class="nav-link" id="google_translate_element"></li>
                                    </ul>
                               </nav>
 

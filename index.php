@@ -112,6 +112,7 @@ if (isset($_SESSION['success']) && isset($_SESSION['msg'])) {
                                         <li><a href="#why-us-section" class="nav-link">Why Us</a></li>
 
                                         <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                                        <li class="nav-link" id="google_translate_element"></li>
                                    </ul>
                               </nav>
 
@@ -239,7 +240,7 @@ if (isset($_SESSION['success']) && isset($_SESSION['msg'])) {
 
 
 
-          <div class="block__73694 site-section border-top" id="why-us-section">
+          <div class="block__73694 site-section border-top">
                <div class="container">
                     <div class="row d-flex no-gutters align-items-stretch">
 
@@ -266,6 +267,8 @@ if (isset($_SESSION['success']) && isset($_SESSION['msg'])) {
                     </div>
                </div>
           </div>
+
+          <!-- id="why-us-section" -->
 
 
 
